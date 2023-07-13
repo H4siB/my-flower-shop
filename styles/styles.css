@@ -4,17 +4,6 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
-.buttonall {
-    border-radius: 8px;
-    background: #E55473;
-    color: #FFF;
-    font-size: 25px;
-    font-weight: 700;
-    border: 0;
-    padding: 20px 50px;
-    margin: 0px 645px 140px 240px;
-}
-
 /* Header styles*/
 .headtitle {
     color: #272727;
@@ -37,6 +26,17 @@ body {
     display: flex;
     flex-shrink: 0;
     justify-content: space-evenly;
+}
+
+.button1 {
+    border-radius: 8px;
+    background: #E55473;
+    color: #FFF;
+    font-size: 25px;
+    font-weight: 700;
+    border: 0;
+    padding: 20px 50px;
+    margin: 0px 645px 140px 240px;
 }
 
 .headflower {
@@ -68,9 +68,10 @@ body {
 .flowers {
     display: flex;
     align-items: center;
+    justify-content: space-around;
     height: 440px;
     width: 320px;
-    border-radius: 300px 300px 0px 0px;
+    margin: 125px auto;
 
 }
 
@@ -78,19 +79,39 @@ body {
     margin-left: 240px;
     margin-top: 45px;
     background: rgba(167, 33, 98, 0.15);
+    width: 464px;
+    height: 300px;
+    border-radius: 300px 300px 0px 0px; 
+}
+
+.ek{
+    height: 300px;
 }
 
 .middleone {
     margin-left: 80px;
     margin-top: 45px;
     background: rgba(5, 151, 160, 0.15);
+    width: 250px;
+    height: 300px;
+    border-radius: 300px 300px 0px 0px;
+}
 
+.dui{
+   width: 260px;
 }
 
 .rightone {
     margin-left: 80px;
     margin-top: 45px;
     background: rgba(71, 125, 17, 0.15);
+    width: 464px;
+    height: 300px;
+    border-radius: 300px 300px 0px 0px;
+}
+
+.tin{
+    height: 300px;
 }
 
 .pinkflowertree {
@@ -98,6 +119,15 @@ body {
     color: #272727;
     font-size: 15px;
     font-weight: 700;
+    margin-top: 20px;
+}
+
+.pinkflowertree1{
+    text-align: center;
+    color: #272727;
+    font-size: 15px;
+    font-weight: 700;
+    margin-top: 60px;
 }
 
 .capability {
@@ -105,10 +135,11 @@ body {
     background: rgba(39, 39, 39, 0.05);
     display: flex;
     width: 1400px;
-    height: 350px;
+    height: 450px;
     justify-content: space-around;
-    margin-top: 195px;
+    margin-top: 400px;
     margin-left: 100px;
+    margin: 0 auto;
 }
 
 .delivery {
@@ -146,12 +177,13 @@ body {
 
 .hotdeal {
     background: rgba(229, 84, 115, 0.05);
-    width: 1922px;
     height: 620px;
     display: flex;
     justify-content: space-around;
     align-items: center;
     margin-top: 120px;
+    text-align: center;
+    padding-left: 200px;
 }
 
 .hotitle {
@@ -159,7 +191,6 @@ body {
     font-size: 40px;
     font-weight: 800;
     text-align: center;
-    margin-top: 150px;
 }
 
 .off {
@@ -173,10 +204,22 @@ body {
     text-align: center;
 }
 
+.button2 {
+    border-radius: 8px;
+    background: #E55473;
+    height: 64px;
+    width: 150px;
+    color: #FFF;
+    font-size: 25px;
+    font-weight: 700;
+    border: 0;
+
+}
+
 .hotpic {
     width: 318px;
     height: 420px;
-    padding: 100px 430px 100px 10px;
+    padding: 100px 70px 100px 70px;
 }
 
 .insta {
@@ -198,10 +241,12 @@ body {
 
 .instapic {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     margin-top: 45px;
     margin-left: 30px;
     width: 1530px;
+    align-items: center;
+    margin: 0 auto;
 }
 
 .deals {
@@ -211,6 +256,7 @@ body {
     text-align: center;
     height: 500px;
     width: 1620px;
+    margin: 0 auto;
 }
 
 .dealtitle {
@@ -253,4 +299,37 @@ body {
     margin-left: 16px;
     border: none;
 
+}
+
+/* footer related styles */
+
+.org {
+    text-align: center;
+    background-color: #111010;
+    height: 449px;
+}
+
+.orgtit {
+    color: #E55473;
+    font-size: 48px;
+    font-weight: 800;
+    border: 0;
+    padding-top: 130px;
+}
+
+.titpart {
+    color: #FFFFFF;
+}
+
+.orgdesc {
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.orgcopyright {
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 16px;
+    font-weight: 400;
 }
