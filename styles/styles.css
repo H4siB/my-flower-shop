@@ -1,0 +1,256 @@
+/* common shared styles*/
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.buttonall {
+    border-radius: 8px;
+    background: #E55473;
+    color: #FFF;
+    font-size: 25px;
+    font-weight: 700;
+    border: 0;
+    padding: 20px 50px;
+    margin: 0px 645px 140px 240px;
+}
+
+/* Header styles*/
+.headtitle {
+    color: #272727;
+    font-size: 80px;
+    font-weight: 800;
+    width: 700px;
+    margin: 190px 95px 35px 240px;
+}
+
+.headdesc {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    width: 630px;
+    margin: 0px 170px 32px 240px;
+}
+
+.header {
+    background-color: #E554731A;
+    display: flex;
+    flex-shrink: 0;
+    justify-content: space-evenly;
+}
+
+.headflower {
+    width: 635px;
+    height: 800px;
+    margin-right: 300px;
+    margin-top: 30px;
+}
+
+/* Main section styles */
+
+.featured {
+    text-align: center;
+}
+
+.feattitle {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: 170px;
+}
+
+.featdesc {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.flowers {
+    display: flex;
+    align-items: center;
+    height: 440px;
+    width: 320px;
+    border-radius: 300px 300px 0px 0px;
+
+}
+
+.leftone {
+    margin-left: 240px;
+    margin-top: 45px;
+    background: rgba(167, 33, 98, 0.15);
+}
+
+.middleone {
+    margin-left: 80px;
+    margin-top: 45px;
+    background: rgba(5, 151, 160, 0.15);
+
+}
+
+.rightone {
+    margin-left: 80px;
+    margin-top: 45px;
+    background: rgba(71, 125, 17, 0.15);
+}
+
+.pinkflowertree {
+    text-align: center;
+    color: #272727;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.capability {
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    display: flex;
+    width: 1400px;
+    height: 350px;
+    justify-content: space-around;
+    margin-top: 195px;
+    margin-left: 100px;
+}
+
+.delivery {
+    padding: 120px;
+}
+
+.deliverydesc {
+    color: rgba(39, 39, 39, 0.80);
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.fresh {
+    padding: 120px;
+}
+
+.freshdesc {
+    color: rgba(39, 39, 39, 0.80);
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.support {
+    padding: 120px;
+}
+
+.supportdesc {
+    color: rgba(39, 39, 39, 0.80);
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.hotdeal {
+    background: rgba(229, 84, 115, 0.05);
+    width: 1922px;
+    height: 620px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 120px;
+}
+
+.hotitle {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    text-align: center;
+    margin-top: 150px;
+}
+
+.off {
+    color: #E55473;
+}
+
+.hotdesc {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.hotpic {
+    width: 318px;
+    height: 420px;
+    padding: 100px 430px 100px 10px;
+}
+
+.insta {
+    text-align: center;
+    justify-content: space-around;
+}
+
+.instatit {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.instadesc {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.instapic {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 45px;
+    margin-left: 30px;
+    width: 1530px;
+}
+
+.deals {
+    background-image: url("../Flower Asset/Rectangle\ 9.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    height: 500px;
+    width: 1620px;
+}
+
+.dealtitle {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 15px;
+    padding-top: 120px;
+}
+
+.discount {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 16px;
+}
+
+.email {
+    width: 700px;
+    height: 64px;
+    font-family: Lato;
+    border-radius: 8px;
+    background: #FFF;
+    color: #272727;
+    font-size: 15px;
+    font-weight: 400;
+    border: 0px;
+    padding-left: 20px;
+}
+
+.button3 {
+    background-color: #E55473;
+    border-radius: 8px;
+    height: 64px;
+    width: 150px;
+    color: #FFF;
+    font-family: Lato;
+    font-size: 17px;
+    font-weight: 700;
+    margin-left: 16px;
+    border: none;
+
+}
